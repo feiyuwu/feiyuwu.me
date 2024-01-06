@@ -11,3 +11,10 @@ body {
   float: right;
   width: 200px;
 }
+
+footer {
+  margin-top: 3rem;
+  color: #888;
+  font-size: 0.9rem;
+  text-align: center;
+}
