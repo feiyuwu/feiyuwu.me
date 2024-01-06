@@ -6,7 +6,9 @@ body {
   margin: auto;
   padding: 1em;
 }
-
+a {
+  color: inherit;
+}
 #selfie {
   float: right;
   width: 200px;
@@ -33,6 +35,11 @@ hr {
   border-top: 1px solid #dcdcdc;
   width: 60%;
 }
+
 i {
   margin: 5px;
+}
+
+.color-highlight {
+  color: #2f65a7;
 }
