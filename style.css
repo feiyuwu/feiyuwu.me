@@ -10,13 +10,29 @@ body {
 #selfie {
   float: right;
   width: 200px;
+  border-radius: 5px;
+}
+#name {
+  font-family: sans-serif;
 }
 .link-decoration {
   text-decoration: none;
 }
+#chinese-name {
+  font-weight: 200;
+}
 footer {
-  margin-top: 3rem;
+  margin-top: 10px;
   color: #888;
   font-size: 0.9rem;
   text-align: center;
+}
+hr {
+  height: 0px;
+  border: none;
+  border-top: 1px solid #dcdcdc;
+  width: 60%;
+}
+i {
+  margin: 5px;
 }
