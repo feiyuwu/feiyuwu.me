@@ -43,3 +43,31 @@ i {
 .color-highlight {
   color: #2f65a7;
 }
+.container {
+  display: flex;
+}
+
+.image-container {
+  flex: 30%;
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.description p {
+  margin-top: 0;
+}
+.project-button {
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  position: relative;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.project-button:hover {
+  color: #ffcb05;
+  background-color: #00274c;
+}
